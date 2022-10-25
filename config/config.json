@@ -1,0 +1,12 @@
+{
+    "development": {
+        "PORT": 3000,
+        "MONGODB_URI": "mongodb://localhost:27017/Micron",
+        "JWT_SECRET": "MYSECRET#KEY"
+    },
+    "production": {
+        "PORT": 3000,
+        "MONGODB_URI": "mongodb+srv://test:test1234@cluster0.tky7o.mongodb.net/Micron",
+        "JWT_SECRET": "MYSECRET#KEY"
+    }
+}
